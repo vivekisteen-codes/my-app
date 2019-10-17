@@ -12,7 +12,7 @@ export default class DashBoard extends Component{
     render(){
         return (
             <div>
-             Main Page
+             Main Page!
              
             
             </div>
