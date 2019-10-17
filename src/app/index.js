@@ -18,7 +18,7 @@ export default class DashBoard extends Component{
             <div className="mainContainer">
                 <SideHeader></SideHeader>
                 <ProfileHeader></ProfileHeader>
-                {/* <MainPage></MainPage> */}
+                <MainPage></MainPage>
             </div>
         )
     }

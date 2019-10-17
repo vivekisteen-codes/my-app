@@ -16,8 +16,8 @@ export default class ProfileHeader extends Component{
         return (
             <div className="profileContainer">
                     <div className="profileName">
-                        <p>VIVEK G</p>
-                        <p style={{fontSize:"8px"}}>(FULL STACK DEVELOPER)</p>
+                        <p className="profileText" style={{fontSize:"24px"}}>VIVEK G</p>
+                        <p className="profileDesc" >(FULL STACK DEVELOPER)</p>
                     </div>
                         
                         <img src={profileImg}  /> 

@@ -1,11 +1,14 @@
 body{
         background-color: #1A2849;
 }
+h2,h3,h4,p{
+    font-size: 14px;
+}
 
 /* side bar */
 .sideContainer {
     height: 100%;
-    width: 50px;
+    width: 10%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -27,27 +30,44 @@ body{
 /* profile header */
 
 .profileContainer {
+    overflow: hidden;
+    background-color: #1A2849;
+    position: fixed;
+    top: 0;
+    height: 56px;
+    width: 90%;
    
 }
-.profileContainer p {
-    font-size: 20px;
+.profileText {
     margin: 2px auto;
     color: #FFFFFF;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #26FFDE;
+}
+
+
+.profileDesc{
+    margin: 2px auto;
+    font-size: 8px;
+    color: #3B9D95
+
 }
 
 .profileName {
     display: inline-block;
-    width: 80%;
+    width: 85%;
     text-align: center;
-    margin: 10px auto;
+}
+
+.profileName p{
+    margin-left: 20%;
 }
 
 .profileContainer img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    float: right;
-    margin: 10px auto;
+    border: 1px solid #12EFE6;
 }
 
 
@@ -55,10 +75,76 @@ body{
 /* main page container */
 
 .mainContainer{
-    margin-left: 50px;
+    margin-left: 10%;
     font-size: 28px;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
 }
 
 .homeContainer{
+    margin-top: 56px;
 }
+.infoContainer{
+  padding: 20px;
+
+}
+.expContent{
+    border: 1px solid #21F6FF;
+    background: #090429;
+    color: #00E2FF;
+    padding: 7px;
+    box-shadow: 0px 0px 9px 3px #3ca7a3;
+}
+.expContent h2 {
+    text-align: center;
+}
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 90%;
+    padding: 10px;
+    color: white;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+}
+  
+  li {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+
+  .compContainer h3 {
+      color: #3B9D95;
+  }
+
+  .compContainer p {
+    text-align: center;
+    color : white;
+  }
