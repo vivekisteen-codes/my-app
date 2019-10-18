@@ -3,6 +3,7 @@ import './styles.css';
 import MainPage from './mainPage';
 import SideHeader from './sideHeader';
 import ProfileHeader from './profileHeader';
+import Education from './education';
 
 
 export default class DashBoard extends Component{
@@ -18,7 +19,12 @@ export default class DashBoard extends Component{
             <div className="mainContainer">
                 <SideHeader></SideHeader>
                 <ProfileHeader></ProfileHeader>
-                <MainPage></MainPage>
+                {/* <MainPage></MainPage> */}
+                <div className="homeContainer">
+                <Education></Education>
+
+                </div>
+                
             </div>
         )
     }

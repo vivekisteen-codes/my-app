@@ -4,9 +4,13 @@
   "homepage": "https://vivekisteen-codes.github.io/my-app/",
   "private": true,
   "dependencies": {
+    "3d-react-carousal": "^2.0.1",
     "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0",
     "react": "^16.10.2",
+    "react-coverflow": "^0.2.20",
     "react-dom": "^16.10.2",
+    "react-fast-compare": "^2.0.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },

@@ -76,7 +76,7 @@ h2,h3,h4,p{
 
 .mainContainer{
     margin-left: 10%;
-    font-size: 28px;
+    /* font-size: 28px; */
     /* padding: 0px 10px; */
 }
 
@@ -119,6 +119,12 @@ h2,h3,h4,p{
     100% { transform: translate(-100%, 0); }
 }
 
+@keyframes moveNumberOut {
+    0% {margin-top: 0em;}
+    30% {margin-top: -1.2em;}
+    100% {margin-top: -1.2em;}
+  }
+
 
 ul{
     display: flex;
@@ -140,6 +146,10 @@ ul{
     font-size: 4.5rem;
   }
 
+  .secondChange{
+    animation: moveNumberOut 1.5s;
+  }
+
   .compContainer h3 {
       color: #3B9D95;
   }
@@ -148,3 +158,45 @@ ul{
     text-align: center;
     color : white;
   }
+
+
+
+  /* Education */
+
+  .educationContent{
+    text-align: center;
+    font-size: 16px;
+    color: #00E2FF;
+    padding-top: 11%;
+  }
+  
+  .educationContent div{
+    padding: 8px;
+  }
+  .tapButton {
+    width: 139px;
+    height: 64px;
+    background-color: #0AD0EA;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 10px solid #2d2d2d;
+    border-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 10%;
+    right: 0;
+  }
+  .tapButton div{
+    text-align: center;
+    margin-top: 21px;
+    font-size: 22px;
+  }
+
+  .carousalImg {
+    padding-top: 34px;
+  }
+
+ 
