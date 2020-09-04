@@ -6,7 +6,7 @@
   "dependencies": {
     "3d-react-carousal": "^2.0.1",
     "gh-pages": "^2.1.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.10.2",
     "react-coverflow": "^0.2.20",
     "react-dom": "^16.10.2",
